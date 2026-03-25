@@ -1,0 +1,16 @@
+D:\GitHib Repositories\CaveExplorationTracker\bin\Debug\net8.0-windows\CaveExplorationTracker.exe
+D:\GitHib Repositories\CaveExplorationTracker\bin\Debug\net8.0-windows\CaveExplorationTracker.deps.json
+D:\GitHib Repositories\CaveExplorationTracker\bin\Debug\net8.0-windows\CaveExplorationTracker.runtimeconfig.json
+D:\GitHib Repositories\CaveExplorationTracker\bin\Debug\net8.0-windows\CaveExplorationTracker.dll
+D:\GitHib Repositories\CaveExplorationTracker\bin\Debug\net8.0-windows\CaveExplorationTracker.pdb
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.Form1.resources
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.csproj.GenerateResource.cache
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.AssemblyInfoInputs.cache
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.AssemblyInfo.cs
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.csproj.CoreCompileInputs.cache
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.dll
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\refint\CaveExplorationTracker.dll
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.pdb
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\CaveExplorationTracker.genruntimeconfig.cache
+D:\GitHib Repositories\CaveExplorationTracker\obj\Debug\net8.0-windows\ref\CaveExplorationTracker.dll
