@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHib Repositories\\CaveExplorationTracker\\CaveExplorationTracker.csproj": {}
+    "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\CaveExplorationTracker.csproj": {}
   },
   "projects": {
-    "D:\\GitHib Repositories\\CaveExplorationTracker\\CaveExplorationTracker.csproj": {
+    "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\CaveExplorationTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHib Repositories\\CaveExplorationTracker\\CaveExplorationTracker.csproj",
+        "projectUniqueName": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\CaveExplorationTracker.csproj",
         "projectName": "CaveExplorationTracker",
-        "projectPath": "D:\\GitHib Repositories\\CaveExplorationTracker\\CaveExplorationTracker.csproj",
+        "projectPath": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\CaveExplorationTracker.csproj",
         "packagesPath": "C:\\Users\\erice\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHib Repositories\\CaveExplorationTracker\\obj\\",
+        "outputPath": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

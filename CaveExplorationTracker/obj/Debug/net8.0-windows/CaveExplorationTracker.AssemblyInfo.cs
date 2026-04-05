@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaveExplorationTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8af00fe139f1220a69a1510db35c4e3d3717dd08")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaveExplorationTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaveExplorationTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

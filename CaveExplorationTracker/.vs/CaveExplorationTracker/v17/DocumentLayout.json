@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHib Repositories\\CaveExplorationTracker\\",
+  "WorkspaceRootPath": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\caveexplorationtracker\\cave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:cave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\caveexplorationtracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\cave exploration tracker\\caveexplorationtracker\\iexplorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:iexplorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\cave exploration tracker\\caveexplorationtracker\\crystalcave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:crystalcave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\cave exploration tracker\\caveexplorationtracker\\icecave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:icecave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\cave exploration tracker\\caveexplorationtracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\caveexplorationtracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|d:\\githib repositories\\cave exploration tracker\\caveexplorationtracker\\cave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA92E5F-0036-4A87-ACB9-FAD0177D401B}|CaveExplorationTracker.csproj|solutionrelative:cave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CrystalCave.cs",
+              "DocumentMoniker": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\CrystalCave.cs",
+              "RelativeDocumentMoniker": "CrystalCave.cs",
+              "ToolTip": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\CrystalCave.cs",
+              "RelativeToolTip": "CrystalCave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:07:42.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IceCave.cs",
+              "DocumentMoniker": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\IceCave.cs",
+              "RelativeDocumentMoniker": "IceCave.cs",
+              "ToolTip": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\IceCave.cs",
+              "RelativeToolTip": "IceCave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:07:08.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IExplorable.cs",
+              "DocumentMoniker": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\IExplorable.cs",
+              "RelativeDocumentMoniker": "IExplorable.cs",
+              "ToolTip": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\IExplorable.cs",
+              "RelativeToolTip": "IExplorable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:00:55.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Cave.cs",
-              "DocumentMoniker": "D:\\GitHib Repositories\\CaveExplorationTracker\\Cave.cs",
+              "DocumentMoniker": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\Cave.cs",
               "RelativeDocumentMoniker": "Cave.cs",
-              "ToolTip": "D:\\GitHib Repositories\\CaveExplorationTracker\\Cave.cs",
+              "ToolTip": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\Cave.cs",
               "RelativeToolTip": "Cave.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T21:40:00.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\GitHib Repositories\\CaveExplorationTracker\\Form1.cs",
+              "DocumentMoniker": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\GitHib Repositories\\CaveExplorationTracker\\Form1.cs",
+              "ToolTip": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwGkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T21:37:24.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\GitHib Repositories\\CaveExplorationTracker\\Form1.cs",
+              "DocumentMoniker": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\GitHib Repositories\\CaveExplorationTracker\\Form1.cs [Design]",
+              "ToolTip": "D:\\GitHib Repositories\\Cave Exploration Tracker\\CaveExplorationTracker\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T21:24:02.427Z",

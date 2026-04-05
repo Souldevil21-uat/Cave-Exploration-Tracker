@@ -45,12 +45,19 @@
             lstCaves = new ListBox();
             btnClearSelected = new Button();
             btnClearAll = new Button();
+            cmbCaveType = new ComboBox();
+            lblSpecialValue = new Label();
+            txtSpecialValue = new TextBox();
+            btnDisplayAll = new Button();
+            btnDisplayOne = new Button();
+            btnDisplayTwo = new Button();
+            btnShowSpecial = new Button();
             SuspendLayout();
             // 
             // CaveName
             // 
             CaveName.AutoSize = true;
-            CaveName.Location = new Point(39, 89);
+            CaveName.Location = new Point(14, 16);
             CaveName.Name = "CaveName";
             CaveName.Size = new Size(68, 15);
             CaveName.TabIndex = 0;
@@ -58,7 +65,7 @@
             // 
             // txtCaveName
             // 
-            txtCaveName.Location = new Point(39, 107);
+            txtCaveName.Location = new Point(14, 34);
             txtCaveName.Name = "txtCaveName";
             txtCaveName.Size = new Size(100, 23);
             txtCaveName.TabIndex = 1;
@@ -66,7 +73,7 @@
             // lblLocation
             // 
             lblLocation.AutoSize = true;
-            lblLocation.Location = new Point(272, 89);
+            lblLocation.Location = new Point(345, 16);
             lblLocation.Name = "lblLocation";
             lblLocation.Size = new Size(53, 15);
             lblLocation.TabIndex = 2;
@@ -74,7 +81,7 @@
             // 
             // txtLocation
             // 
-            txtLocation.Location = new Point(272, 107);
+            txtLocation.Location = new Point(298, 34);
             txtLocation.Name = "txtLocation";
             txtLocation.Size = new Size(100, 23);
             txtLocation.TabIndex = 3;
@@ -82,7 +89,7 @@
             // lblDepth
             // 
             lblDepth.AutoSize = true;
-            lblDepth.Location = new Point(37, 178);
+            lblDepth.Location = new Point(14, 125);
             lblDepth.Name = "lblDepth";
             lblDepth.Size = new Size(72, 15);
             lblDepth.TabIndex = 4;
@@ -90,7 +97,7 @@
             // 
             // txtDepth
             // 
-            txtDepth.Location = new Point(37, 206);
+            txtDepth.Location = new Point(14, 143);
             txtDepth.Name = "txtDepth";
             txtDepth.Size = new Size(100, 23);
             txtDepth.TabIndex = 5;
@@ -98,7 +105,7 @@
             // lblLength
             // 
             lblLength.AutoSize = true;
-            lblLength.Location = new Point(272, 178);
+            lblLength.Location = new Point(321, 105);
             lblLength.Name = "lblLength";
             lblLength.Size = new Size(77, 15);
             lblLength.TabIndex = 6;
@@ -106,7 +113,7 @@
             // 
             // txtLength
             // 
-            txtLength.Location = new Point(273, 205);
+            txtLength.Location = new Point(298, 143);
             txtLength.Name = "txtLength";
             txtLength.Size = new Size(100, 23);
             txtLength.TabIndex = 7;
@@ -114,7 +121,7 @@
             // lblExplore
             // 
             lblExplore.AutoSize = true;
-            lblExplore.Location = new Point(147, 259);
+            lblExplore.Location = new Point(136, 91);
             lblExplore.Name = "lblExplore";
             lblExplore.Size = new Size(57, 15);
             lblExplore.TabIndex = 8;
@@ -123,7 +130,7 @@
             // chkIsExplored
             // 
             chkIsExplored.AutoSize = true;
-            chkIsExplored.Location = new Point(217, 259);
+            chkIsExplored.Location = new Point(199, 92);
             chkIsExplored.Name = "chkIsExplored";
             chkIsExplored.Size = new Size(15, 14);
             chkIsExplored.TabIndex = 9;
@@ -131,7 +138,7 @@
             // 
             // btnAddCave
             // 
-            btnAddCave.Location = new Point(39, 290);
+            btnAddCave.Location = new Point(9, 241);
             btnAddCave.Name = "btnAddCave";
             btnAddCave.Size = new Size(75, 23);
             btnAddCave.TabIndex = 10;
@@ -141,7 +148,7 @@
             // 
             // btnLoadSamples
             // 
-            btnLoadSamples.Location = new Point(147, 290);
+            btnLoadSamples.Location = new Point(90, 241);
             btnLoadSamples.Name = "btnLoadSamples";
             btnLoadSamples.Size = new Size(133, 23);
             btnLoadSamples.TabIndex = 11;
@@ -151,7 +158,7 @@
             // 
             // btnClearInputs
             // 
-            btnClearInputs.Location = new Point(298, 290);
+            btnClearInputs.Location = new Point(229, 241);
             btnClearInputs.Name = "btnClearInputs";
             btnClearInputs.Size = new Size(87, 23);
             btnClearInputs.TabIndex = 12;
@@ -182,7 +189,7 @@
             // 
             // btnClearSelected
             // 
-            btnClearSelected.Location = new Point(37, 355);
+            btnClearSelected.Location = new Point(7, 298);
             btnClearSelected.Name = "btnClearSelected";
             btnClearSelected.Size = new Size(142, 23);
             btnClearSelected.TabIndex = 15;
@@ -192,7 +199,7 @@
             // 
             // btnClearAll
             // 
-            btnClearAll.Location = new Point(250, 355);
+            btnClearAll.Location = new Point(155, 298);
             btnClearAll.Name = "btnClearAll";
             btnClearAll.Size = new Size(99, 23);
             btnClearAll.TabIndex = 16;
@@ -200,11 +207,84 @@
             btnClearAll.UseVisualStyleBackColor = true;
             btnClearAll.Click += btnClearAll_Click;
             // 
+            // cmbCaveType
+            // 
+            cmbCaveType.FormattingEnabled = true;
+            cmbCaveType.Items.AddRange(new object[] { "Regular Cave", "Ice Cave", "Crystal Cave" });
+            cmbCaveType.Location = new Point(145, 34);
+            cmbCaveType.Name = "cmbCaveType";
+            cmbCaveType.Size = new Size(121, 23);
+            cmbCaveType.TabIndex = 17;
+            cmbCaveType.SelectedIndexChanged += cmbCaveType_SelectedIndexChanged;
+            // 
+            // lblSpecialValue
+            // 
+            lblSpecialValue.AutoSize = true;
+            lblSpecialValue.Location = new Point(155, 125);
+            lblSpecialValue.Name = "lblSpecialValue";
+            lblSpecialValue.Size = new Size(0, 15);
+            lblSpecialValue.TabIndex = 18;
+            // 
+            // txtSpecialValue
+            // 
+            txtSpecialValue.Location = new Point(145, 143);
+            txtSpecialValue.Multiline = true;
+            txtSpecialValue.Name = "txtSpecialValue";
+            txtSpecialValue.Size = new Size(121, 23);
+            txtSpecialValue.TabIndex = 19;
+            // 
+            // btnDisplayAll
+            // 
+            btnDisplayAll.Location = new Point(7, 343);
+            btnDisplayAll.Name = "btnDisplayAll";
+            btnDisplayAll.Size = new Size(75, 23);
+            btnDisplayAll.TabIndex = 20;
+            btnDisplayAll.Text = "Display All";
+            btnDisplayAll.UseVisualStyleBackColor = true;
+            btnDisplayAll.Click += btnDisplayAll_Click;
+            // 
+            // btnDisplayOne
+            // 
+            btnDisplayOne.Location = new Point(100, 343);
+            btnDisplayOne.Name = "btnDisplayOne";
+            btnDisplayOne.Size = new Size(95, 23);
+            btnDisplayOne.TabIndex = 21;
+            btnDisplayOne.Text = "Display One";
+            btnDisplayOne.UseVisualStyleBackColor = true;
+            btnDisplayOne.Click += btnDisplayOne_Click;
+            // 
+            // btnDisplayTwo
+            // 
+            btnDisplayTwo.Location = new Point(215, 343);
+            btnDisplayTwo.Name = "btnDisplayTwo";
+            btnDisplayTwo.Size = new Size(95, 23);
+            btnDisplayTwo.TabIndex = 22;
+            btnDisplayTwo.Text = "Display Two";
+            btnDisplayTwo.UseVisualStyleBackColor = true;
+            btnDisplayTwo.Click += btnDisplayTwo_Click;
+            // 
+            // btnShowSpecial
+            // 
+            btnShowSpecial.Location = new Point(260, 298);
+            btnShowSpecial.Name = "btnShowSpecial";
+            btnShowSpecial.Size = new Size(95, 23);
+            btnShowSpecial.TabIndex = 23;
+            btnShowSpecial.Text = "Show Special";
+            btnShowSpecial.UseVisualStyleBackColor = true;
+            btnShowSpecial.Click += btnShowSpecial_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnShowSpecial);
+            Controls.Add(btnDisplayTwo);
+            Controls.Add(btnDisplayOne);
+            Controls.Add(btnDisplayAll);
+            Controls.Add(txtSpecialValue);
+            Controls.Add(lblSpecialValue);
+            Controls.Add(cmbCaveType);
             Controls.Add(btnClearAll);
             Controls.Add(btnClearSelected);
             Controls.Add(lstCaves);
@@ -248,5 +328,12 @@
         private ListBox lstCaves;
         private Button btnClearSelected;
         private Button btnClearAll;
+        private ComboBox cmbCaveType;
+        private Label lblSpecialValue;
+        private TextBox txtSpecialValue;
+        private Button btnDisplayAll;
+        private Button btnDisplayOne;
+        private Button btnDisplayTwo;
+        private Button btnShowSpecial;
     }
 }
